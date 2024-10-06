@@ -1,0 +1,12 @@
+h1{
+    text-align: center;
+}
+body{
+    background-color: aqua;
+}
+#caja{
+    border: 2px solid red;
+}
+.colores{
+    color: purple;
+}
