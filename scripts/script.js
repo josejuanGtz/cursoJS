@@ -1,8 +1,35 @@
+//agregar imagen mediante boton desde el html
+let foto = document.getElementById("foto");
+function mostrar() {
+    foto.innerHTML = '<img src ="img/1200_800.webp">';
+}
+
+
 //imprimir mensaje desde consola
 console.log("Hola mundo");
 
 //pedir nombre con prompt
 var nombre = prompt("¿Cuál es tu nombre?");
+
+//uso de funciones
+function imprimir(nombre) {
+    console.log("Nombre desde funcion: " + nombre);
+}
+imprimir(nombre);
+
+//uso de funciones arrow
+const func_arrow = (usuario)=>{
+    console.log("Esta es una prueba de función arrow de " + usuario);
+}
+func_arrow(nombre);
+
+//uso de funciones return
+const suma =  (num1,num2)=>{
+    const resul = num1 + num2;
+    return resul;
+}
+const sumar = suma(3,7);
+console.log(`El resultado de la función sumar es ${suma(3,7)}`);
 
 //imprimir mensaje desde alert
 /*las comillas simples usadas aqui se llaman backticks y sirven para concatenar variables 
