@@ -11,6 +11,12 @@ console.log("Hola mundo");
 //pedir nombre con prompt
 var nombre = prompt("¿Cuál es tu nombre?");
 
+//lower case
+console.log("en minusculas: " + nombre.toLocaleLowerCase());
+
+//upper case
+console.log("en mayusculas:" + nombre.toUpperCase());
+
 //uso de funciones
 function imprimir(nombre) {
     console.log("Nombre desde funcion: " + nombre);
